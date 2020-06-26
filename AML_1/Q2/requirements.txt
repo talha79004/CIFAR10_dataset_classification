@@ -1,0 +1,11 @@
+%matplotlib inline
+import import_ipynb	
+import torch
+import torchvision
+import torchvision.transforms as transforms
+import matplotlib.pyplot as plt
+from torch.utils.data import TensorDataset
+from torch.utils.data import DataLoader	
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.optim as optim
